@@ -53,8 +53,8 @@ public class Trader<T> {
     /* TODO: Implement the method addToWishlist that takes an
      *       object of type T and adds it to this Trader's wishlist.
      */
-    public void addToWishList(T item){
-        this.wishlist.add(item);
+    public void addToWishlist(T horse) {
+        this.wishlist.add(horse);
     }
 
 
@@ -157,5 +157,6 @@ public class Trader<T> {
     public List<T> getInventory(){
         return this.inventory;
     }
+
 
 }
